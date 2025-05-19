@@ -1,0 +1,79 @@
+#hero {
+  background: #f8f9fa;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Sans-serif;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+#hero p.lead {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  color: #ffc107; /* missing semicolon fixed */
+}
+
+section {
+  padding: 60px 0;
+}
+
+/* About Me section */
+#about {
+  background-color: #ffffff; /* White background */
+  color: #333; /* Dark text */
+  padding: 60px 20px;
+}
+
+#about h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto; /* Center the paragraph */
+}
+
+/* Skills Section */
+#skills {
+  padding: 60px 20px;
+}
+
+#skills h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.progress {
+  height: 25px; /* Taller progress bars */
+}
+
+.progress-bar {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 25px; /* Center the text vertically */
+}
+/* Contact Section */
+#contact {
+  padding: 60px 20px;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
